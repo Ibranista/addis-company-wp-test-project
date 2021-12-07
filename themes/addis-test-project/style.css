@@ -1,0 +1,55 @@
+/*
+ Theme Name:   Addis-Software bootstrap theme
+ Theme URI:    
+ Description:  child of wp-bootstrap-starter theme
+ Author:       Ibraheem Khedir
+ Author URI:   https:www.github.com/ibranista
+ Template:     wp-bootstrap-starter
+ Version:      1.0.0
+ License:      
+ License URI:  
+ Tags:         waiting...
+ Text Domain:  addis-software
+*/
+
+header#masthead{
+    background-color: rgb(48, 48, 48);
+}
+
+.site-title{
+    color:rgb(141, 141, 141) !important;
+    font-size:2rem !important;
+}
+
+h1.entry-title{
+    color: rgb(214, 209, 209);
+}
+
+/* main-body */
+.entry-content{
+    /* display: flex; */
+    justify-content: space-between;
+}
+.wp-block-group__inner-container{
+    display:flex;
+}
+.wp-image-339{
+    width:100%;
+}
+.has-text-color.has-huge-font-size{
+    padding-left: 1rem;
+    padding-top: 5%;
+}
+
+/* product styles */
+.product_section {
+    /* background: rgb(68, 68, 68); */
+    display:flex;
+}
+
+/* about-us styles */
+.payment_plan, .facts{
+    background: rgb(37, 37, 37) !important;
+    color: white;
+    padding: 2rem;
+}
